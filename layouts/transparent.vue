@@ -19,9 +19,20 @@
       </div>
     </nav>
   </header>
+
   <div>
     <slot />
   </div>
+
+  <footer class="mt-[256px]">
+    <div class="h-[380px] bg-gradient-to-l from-primary-dark to-secondary-dark flex flex-col justiap  ">
+      <div></div>
+      <div>
+        <p>© 2023 John Doe</p>
+        <p>Privacy Policy</p>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script setup>

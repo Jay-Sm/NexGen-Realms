@@ -6,6 +6,10 @@
   @apply border-2 border-white w-[5rem] h-[5rem] rounded-full flex justify-center z-10;
 }
 
+.gradient-button {
+  @apply h-[60px] bg-gradient-to-r from-[#B06BF0] to-[#FF5875] rounded shadow-button
+}
+
 .buy-button {
   @apply border-2 border-white rounded w-[5rem] h-[2.5rem] shadow-button absolute bottom-6 right-7;
 }

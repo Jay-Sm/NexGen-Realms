@@ -7,9 +7,9 @@
     <div class="flex flex-col items-center relative">
       <div class="flex mb-3">
         <h2 class="text-xl font-medium">Featured Games</h2>
-        <button
-          class="w-[167px] h-[60px] bg-gradient-to-r from-[#B06BF0] to-[#FF5875] rounded shadow-button absolute right-12">Explore
-          Games</button>
+        <button class="px-[0.7rem] gradient-button absolute right-12">
+          Explore Games
+        </button>
       </div>
       <div class="flex justify-between absolute left-4 right-4 top-1/2">
         <button class="slide-button">
@@ -97,6 +97,24 @@
       <div>
         <img src="../assets/images/awards/MGA-category-Audio-Vis-Accomplishment.png" class="h-[192px]">
       </div>
+    </div>
+
+    <div class="flex flex-col items-center gap-y-[25px]">
+      <h2 class="text-xl font-medium mb-3">Contact Us</h2>
+
+      <p class="w-[600px] text-center">
+        Have a question, feedback, or just want to say hello? We're here to listen! Feel free to reach out to us through
+        the contact form or drop us an email.
+      </p>
+
+      <div class="flex gap-x-[80px]">
+        <p>JohnDoe@mail.com</p>
+        <p>+1 123 456 7890</p>
+      </div>
+
+      <button class="gradient-button px-[1.5rem]">
+        Details
+      </button>
     </div>
 
   </div>
