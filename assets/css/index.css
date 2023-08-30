@@ -1,11 +1,18 @@
 .game-carousal {
-  @apply min-w-[950px] h-[650px] bg-auto bg-no-repeat
+  @apply min-w-[950px] h-[650px] bg-auto bg-no-repeat;
 }
 
 .slide-button {
-  @apply border-2 border-white w-[5rem] h-[5rem] rounded-full flex justify-center z-10
+  @apply border-2 border-white w-[5rem] h-[5rem] rounded-full flex justify-center z-10;
 }
 
 .buy-button {
-  @apply border-2 border-white rounded w-[5rem] h-[2.5rem] shadow-button absolute bottom-6 right-7
+  @apply border-2 border-white rounded w-[5rem] h-[2.5rem] shadow-button absolute bottom-6 right-7;
+}
+
+.award-section {
+  @apply flex items-center justify-center;
+
+  @apply h-[16.5rem] border-[3px] border-x-0;
+  border-image: linear-gradient(90deg, rgba(176,107,240,1) 0%, rgba(255,88,117,1) 100%) 1
 }
