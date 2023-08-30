@@ -11,8 +11,12 @@
 }
 
 .award-section {
-  @apply flex items-center justify-center;
+  @apply flex items-center justify-between px-[1rem] min-w-[65rem] ;
 
   @apply h-[16.5rem] border-[3px] border-x-0;
   border-image: linear-gradient(90deg, rgba(176,107,240,1) 0%, rgba(255,88,117,1) 100%) 1
+}
+
+.filter-white {
+  filter: invert(98%) sepia(0%) saturate(1759%) hue-rotate(185deg) brightness(118%) contrast(100%);
 }

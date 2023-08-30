@@ -79,27 +79,25 @@
 
     <div class="award-section">
       <div>
-        stuff
+        <img src="../assets/images/awards/GameDevelopersChoiceAwardsJobSim.png" class="h-[192px] filter-white">
       </div>
 
       <div>
-        stuff
+        <img src="../assets/images/awards/btf-awards-BIC-gsme-design.png" class="h-[192px]">
       </div>
 
       <div>
-        stuff
+        <img src="../assets/images/awards/goty.png" class="h-[192px]">
       </div>
 
       <div>
-        stuff
+        <img src="../assets/images/awards/goty-2022-PC-VR.png" class="h-[192px]">
       </div>
 
       <div>
-        stuff
+        <img src="../assets/images/awards/MGA-category-Audio-Vis-Accomplishment.png" class="h-[192px]">
       </div>
     </div>
-
-
 
   </div>
 </template>
