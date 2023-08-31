@@ -7,7 +7,7 @@
 }
 
 .gradient-button {
-  @apply h-[60px] bg-gradient-to-r from-[#B06BF0] to-[#FF5875] rounded shadow-button
+  @apply h-[3.2rem] bg-gradient-to-r from-[#B06BF0] to-[#FF5875] rounded shadow-button
 }
 
 .buy-button {

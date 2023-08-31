@@ -1,15 +1,15 @@
 <template>
   <div class="flex flex-col gap-y-[12rem]">
     <div>
-      <img src="../assets/images/Hero_Image.png" class="w-full h-[35rem]">
+      <img src="../assets/images/Hero_Image.png" class="w-full h-[46rem]">
     </div>
 
     <div class="flex flex-col items-center relative">
       <div class="flex mb-3">
         <h2 class="text-xl font-medium">Featured Games</h2>
-        <button class="px-[0.7rem] gradient-button absolute right-12">
+        <NuxtLink to="/explore" class="gradient-button px-[0.7rem] gradient-button absolute right-12 flex items-center">
           Explore Games
-        </button>
+        </NuxtLink>
       </div>
       <div class="flex justify-between absolute left-4 right-4 top-1/2">
         <button class="slide-button">
@@ -112,9 +112,9 @@
         <p>+1 123 456 7890</p>
       </div>
 
-      <button class="gradient-button px-[1.5rem]">
-        Details
-      </button>
+
+      <NuxtLink to="/contact" class="gradient-button px-[1.5rem] flex items-center">Details</NuxtLink>
+
     </div>
 
   </div>

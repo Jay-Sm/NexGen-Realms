@@ -25,9 +25,47 @@
   </div>
 
   <footer class="mt-[256px]">
-    <div class="h-[380px] bg-gradient-to-l from-primary-dark to-secondary-dark flex flex-col justiap  ">
-      <div></div>
-      <div>
+    <div class="h-[21rem] bg-gradient-to-l from-primary-dark to-secondary-dark flex flex-col justify-between">
+      <div class="h-full flex items-center justify-between px-[3rem]">
+        <div class="flex gap-x-4">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="../assets/images/icons/social_media/instagram.svg" class="social-icon">
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <img src="../assets/images/icons/social_media/twitter.svg" class="social-icon">
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="../assets/images/icons/social_media/youtube.svg" class="social-icon">
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="../assets/images/icons/social_media/linked-in.svg" class="social-icon">
+          </a>
+        </div>
+
+        <div class="flex flex-col items-center gap-y-[1.5rem]">
+          <p>Pages</p>
+          <div class="flex gap-x-[1.5rem] font-bold">
+            <NuxtLink to="/">Home</NuxtLink>
+            <NuxtLink to="/about-us">About Us</NuxtLink>
+            <NuxtLink to="/explore">Explore</NuxtLink>
+            <NuxtLink to="/contact">Contact Us</NuxtLink>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-start justify-between gap-y-6">
+          <div class="flex gap-x-3">
+            <img src="../assets/images/icons/envelope.svg" class="w-5">
+            <p class="font-bold">Stay up to date on the latest VR news</p>
+          </div>
+
+          <input type="text" placeholder="Enter your e-mail address" class="newsletter-input">
+
+          <button class="newsletter-button">
+            Sign Up
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-row justify-between py-[1rem] px-[3rem] border-t-2 border-[#535353]">
         <p>© 2023 John Doe</p>
         <p>Privacy Policy</p>
       </div>

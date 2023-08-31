@@ -1,2 +1,11 @@
-.nav-link {
+.social-icon {
+  @apply w-7 h-7
+}
+
+.newsletter-input {
+  @apply border-b-2 bg-transparent placeholder:text-[#676767];
+}
+
+.newsletter-button {
+  @apply border-2 border-white rounded w-[5rem] h-[2.5rem] shadow-button;
 }
